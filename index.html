@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Margin — A Journal of Quiet Design</title>
+    <meta name="description"
+        content="The Margin is an independent publication tracing clean aesthetics, sustainable digital design, and structural harmony across physical and virtual spaces.">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ============ HEADER ============ -->
+    <!-- Site-wide chrome: brand mark + primary navigation -->
+    <header class="site-header">
+        <div class="container">
+            <a href="/" class="brand">the <span>margin</span></a>
+
+            <nav class="primary-nav" aria-label="Primary">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <!-- aria-current marks this as the active section for assistive tech -->
+                    <li><a href="/blog" aria-current="page">Blog</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="layout">
+
+            <!-- ============ MAIN CONTENT ============ -->
+            <main>
+                <!-- Visually-hidden h1: every page needs exactly one. The brand mark in
+             the header is a logo/site-name link, not a page heading, so this
+             gives the document a real top-level heading without duplicating
+             "the margin" visibly on every page. -->
+                <h1 class="visually-hidden"
+                    style="position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap;">
+                    Latest Articles
+                </h1>
+
+                <!-- Each post preview is independently distributable content → <article> -->
+                <article class="blog-post-card">
+                    <img class="featured-image" src="https://picsum.photos/seed/concrete-interior/776/320"
+                        alt="A minimalist living room with exposed concrete walls, an oak bench, and soft light from a skylight">
+
+                    <div class="post-meta">
+                        <a href="/category/architecture" class="category">Architecture</a>
+                        <span class="sep" aria-hidden="true"></span>
+                        <time datetime="2025-10-28">October 28, 2025</time>
+                        <span class="sep" aria-hidden="true"></span>
+                        <span>By <a href="/author/elena-rostova" rel="author">Elena Rostova</a></span>
+                    </div>
+
+                    <h2 class="post-title">
+                        <a href="/post/poetics-of-concrete">The Poetics of Concrete: Brutalism Reinterpreted for Gentle
+                            Environments</a>
+                    </h2>
+
+                    <p class="post-excerpt">
+                        Why are modern designers returning to exposed concrete textures? In this essay, we look past the
+                        harsh structuralism of mid-century civic architecture and explore how raw masonry surfaces can
+                        hold soft warmth when paired with natural oak and northern skylights.
+                    </p>
+
+                    <a href="/post/poetics-of-concrete" class="read-more">
+                        Read Full Article: The Poetics of Concrete
+                        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                            <path fill="currentColor"
+                                d="M13.5 5.5 20 12l-6.5 6.5-1.4-1.4L16.2 13H4v-2h12.2l-4.1-4.1z" />
+                        </svg>
+                    </a>
+                </article>
+
+                <article class="blog-post-card">
+                    <img class="featured-image" src="https://picsum.photos/seed/open-book-type/776/320"
+                        alt="An open book showing a clean editorial type layout with wide margins">
+
+                    <div class="post-meta">
+                        <a href="/category/typography" class="category">Typography</a>
+                        <span class="sep" aria-hidden="true"></span>
+                        <time datetime="2025-10-20">October 20, 2025</time>
+                        <span class="sep" aria-hidden="true"></span>
+                        <span>By <a href="/author/marcus-vance" rel="author">Marcus Vance</a></span>
+                    </div>
+
+                    <h2 class="post-title">
+                        <a href="/post/unseen-grid">The Unseen Grid: Why Modern Interface Typographers Keep Failing the
+                            Page</a>
+                    </h2>
+
+                    <p class="post-excerpt">
+                        An exploration of responsive reading systems, type scale hierarchies, and the persistent
+                        degradation of micro-typographic details on high-resolution screens. We argue that layout
+                        constraints should honor the physical weight of centuries-old editorial standards.
+                    </p>
+
+                    <a href="/post/unseen-grid" class="read-more">
+                        Read Full Article: The Unseen Grid
+                        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                            <path fill="currentColor"
+                                d="M13.5 5.5 20 12l-6.5 6.5-1.4-1.4L16.2 13H4v-2h12.2l-4.1-4.1z" />
+                        </svg>
+                    </a>
+                </article>
+
+                <article class="blog-post-card">
+                    <img class="featured-image" src="https://picsum.photos/seed/ceramic-vessels/776/320"
+                        alt="Three unglazed terracotta ceramic vessels of varying heights on a stone table">
+
+                    <div class="post-meta">
+                        <a href="/category/industrial-design" class="category">Industrial Design</a>
+                        <span class="sep" aria-hidden="true"></span>
+                        <time datetime="2025-10-14">October 14, 2025</time>
+                        <span class="sep" aria-hidden="true"></span>
+                        <span>By <a href="/author/sora-takahashi" rel="author">Sora Takahashi</a></span>
+                    </div>
+
+                    <h2 class="post-title">
+                        <a href="/post/functional-silences">Functional Silences: Celebrating the Unadorned Ceramics of
+                            the Bauhaus Atelier</a>
+                    </h2>
+
+                    <p class="post-excerpt">
+                        Unraveling the deep relationship between raw terracotta vessels and their surrounding spatial
+                        volumes. A photographic journey detailing how functional simplicity acts as an antidote to
+                        hyper-stimulating digital clutter.
+                    </p>
+
+                    <a href="/post/functional-silences" class="read-more">
+                        Read Full Article: Functional Silences
+                        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                            <path fill="currentColor"
+                                d="M13.5 5.5 20 12l-6.5 6.5-1.4-1.4L16.2 13H4v-2h12.2l-4.1-4.1z" />
+                        </svg>
+                    </a>
+                </article>
+            </main>
+
+            <!-- ============ SIDEBAR ============ -->
+            <!-- Complementary content, related to but distinct from the post list → <aside> -->
+            <aside class="sidebar" aria-label="Blog sidebar">
+
+                <section aria-labelledby="about-heading">
+                    <h3 id="about-heading">About the Editor</h3>
+                    <div class="author-profile">
+                        <img class="author-avatar" src="https://picsum.photos/seed/elena-portrait/128/128"
+                            alt="Portrait of Elena Rostova">
+                        <div class="author-meta">
+                            <p class="author-name">Elena Rostova</p>
+                            <p class="author-title">Designer &amp; Critic</p>
+                        </div>
+                    </div>
+                    <p class="bio">
+                        Exploring the intersections of high craft, quiet systems, and intentional typography. Writing
+                        weekly from our quiet studio in Copenhagen.
+                    </p>
+                </section>
+
+                <hr>
+
+                <section aria-labelledby="recent-heading">
+                    <h3 id="recent-heading">Recent Writing</h3>
+                    <ul class="recent-list">
+                        <li>
+                            <a href="/post/scandinavian-glass">The architectural lines of Scandinavian glass art</a>
+                            <time datetime="2025-10-24">Oct 24</time>
+                        </li>
+                        <li>
+                            <a href="/post/printed-books-2025">Why we still design printed books in 2025</a>
+                            <time datetime="2025-10-18">Oct 18</time>
+                        </li>
+                        <li>
+                            <a href="/post/silence-typography">Finding silence in high-density typography systems</a>
+                            <time datetime="2025-10-11">Oct 11</time>
+                        </li>
+                        <li>
+                            <a href="/post/bauhaus-stools">Form study: The legacy of Bauhaus utility stools</a>
+                            <time datetime="2025-09-29">Sep 29</time>
+                        </li>
+                    </ul>
+                </section>
+
+                <hr>
+
+                <section aria-labelledby="topics-heading">
+                    <h3 id="topics-heading">Explore Topics</h3>
+                    <ul class="tags-wrap">
+                        <li><a href="/tag/typography" class="tag" aria-current="true">Typography</a></li>
+                        <li><a href="/tag/architecture" class="tag">Architecture</a></li>
+                        <li><a href="/tag/minimalism" class="tag">Minimalism</a></li>
+                        <li><a href="/tag/tech-systems" class="tag">Tech Systems</a></li>
+                        <li><a href="/tag/editorial" class="tag">Editorial</a></li>
+                        <li><a href="/tag/industrial-design" class="tag">Industrial Design</a></li>
+                    </ul>
+                </section>
+
+            </aside>
+
+        </div>
+    </div>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand-info">
+                    <p class="brand">the <span>margin</span></p>
+                    <p class="tagline">
+                        An independent publication tracing clean aesthetics, sustainable digital design, and structural
+                        harmony across physical and virtual spaces.
+                    </p>
+                </div>
+
+                <!-- Secondary nav: distinguished from the primary nav with its own label -->
+                <nav class="footer-socials" aria-label="Social media">
+                    <p id="follow-heading">Follow the Journey</p>
+                    <ul class="social-icons" aria-labelledby="follow-heading">
+                        <li>
+                            <a href="https://twitter.com/themargin" aria-label="The Margin on Twitter">
+                                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                                    <path
+                                        d="M22.46 6c-.77.35-1.6.58-2.46.69a4.3 4.3 0 0 0 1.88-2.37 8.59 8.59 0 0 1-2.72 1.04A4.28 4.28 0 0 0 11.1 9.2a12.14 12.14 0 0 1-8.82-4.47 4.28 4.28 0 0 0 1.32 5.71 4.25 4.25 0 0 1-1.94-.54v.05a4.28 4.28 0 0 0 3.43 4.2 4.3 4.3 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.97A8.59 8.59 0 0 1 2 18.58a12.1 12.1 0 0 0 6.56 1.92c7.88 0 12.2-6.53 12.2-12.2 0-.19 0-.37-.01-.56A8.7 8.7 0 0 0 22.46 6z" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/themargin" aria-label="The Margin on GitHub">
+                                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                                    <path
+                                        d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.95 0-1.09.39-1.99 1.03-2.69-.1-.26-.45-1.28.1-2.66 0 0 .84-.27 2.75 1.02a9.6 9.6 0 0 1 5 0c1.9-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.66.64.7 1.03 1.6 1.03 2.69 0 3.85-2.34 4.7-4.57 4.94.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2z" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://linkedin.com/company/themargin" aria-label="The Margin on LinkedIn">
+                                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                                    <path
+                                        d="M6.94 5a2 2 0 1 1-4-.02 2 2 0 0 1 4 .02zM7 8.48H3V21h4V8.48zm6.32 0H9.34V21h3.94v-6.57c0-3.66 4.77-3.96 4.77 0V21H22v-7.93c0-6.17-7.06-5.94-8.68-2.91V8.48z" />
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <hr class="footer-divider">
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 The Margin. All rights reserved. Crafted for visual thinkers.</p>
+                <nav class="footer-meta-links" aria-label="Legal">
+                    <ul>
+                        <li><a href="/privacy">Privacy Policy</a></li>
+                        <li><a href="/newsletter">Newsletter</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
