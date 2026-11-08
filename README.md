@@ -1,10 +1,8 @@
 # Blog Mockup: Semantic HTML Practice
 
-A static blog homepage built with semantic HTML only (no CSS or JavaScript). It is the HTML practice assignment from Microsoft's [Web Development for Beginners](https://github.com/microsoft/Web-Dev-For-Beginners) curriculum.
+A static blog homepage built with semantic HTML & CSS. It is the HTML practice assignment from Microsoft's [Web Development for Beginners](https://github.com/microsoft/Web-Dev-For-Beginners) curriculum.
 
-**Live demo:** <add your GitHub Pages / Netlify / Vercel link here>
-
-![Screenshot of the blog homepage](screenshots/homepage.png)
+**Live demo:** <https://phaneethkumar.github.io/Blog-Mockup-Page/>
 
 ## About the project
 
@@ -15,16 +13,16 @@ The goal was to plan a blog homepage first, then turn that plan into clean, acce
 - A sidebar with an about section, recent posts, and categories
 - A footer with contact information and links
 
-The page looks plain on purpose. This assignment focuses on structure and meaning, and styling comes later with CSS.
+The page looks plain on purpose.
 
 ## Project structure
 
 ```
 .
-├── index.html          # Blog homepage
-├── mockup/             # Labeled visual mockup (sketch or wireframe)
-├── screenshots/        # Screenshots used in this README
-└── README.md
+├── .github/workflows/   # GitHub Actions workflow(s)
+├── README.md
+├── index.html           # Blog homepage
+└── style.css            # Styling for the page
 ```
 
 ## Semantic elements used
@@ -48,7 +46,7 @@ The page looks plain on purpose. This assignment focuses on structure and meanin
 
 ## Design planning
 
-Before writing any code, I sketched a mockup of the homepage and labeled each section with the HTML element I planned to use for it (for example, "Header → `<header>`", "Blog post → `<article>`"). You can find it in the [`mockup/`](mockup/) folder.
+Before writing any code, I have chosen a blog page mockup from Figma community and labeled each section with the HTML element I planned to use for it using Figma Dev mode. You can find the mockup [here](https://www.figma.com/design/bupLR61kE85RWWtdifOXQ4/Blog-Home-Page?node-id=0-1&p=f).
 
 ## Run it locally
 
@@ -60,16 +58,6 @@ cd <repo-name>
 ```
 
 Then open `index.html` in any browser.
-
-## Reflection
-
-<Paste your 3-5 sentence reflection here. Cover: the elements you felt most confident using, the challenges you ran into, how semantic HTML helped organize your content, and what you'd do differently next time.>
-
-## What's next
-
-- [ ] Style the page with CSS (layout, typography, responsive design)
-- [ ] Add a skip-to-content link and test with a screen reader
-- [ ] Turn the static post previews into full post pages
 
 ## Credits
 
